@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import RecipeRoll from '../../components/RecipeRoll'
 
 export default class RecipesIndexPage extends React.Component {
   render() {
@@ -10,7 +10,7 @@ export default class RecipesIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/brown-rice-and-veg-congee.jpg')`,
           }}
         >
           <h1
@@ -28,7 +28,7 @@ export default class RecipesIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <RecipeRoll />
             </div>
           </div>
         </section>
